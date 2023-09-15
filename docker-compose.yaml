@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  swagger:
+    image: alexsuf/swagger
+    container_name: swagger
+    restart: always
+    ports:
+      - 777:8080     # 127.0.0.1:777
